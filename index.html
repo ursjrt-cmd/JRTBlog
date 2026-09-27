@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title id="html-title-tag">OmniBlog | Search & Intelligence Portal</title>
+  <title id="html-title-tag">JRT Blog | Think & Search</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -804,8 +804,8 @@
           isAdminLoggedIn: false,
           adminActiveTab: 'create-post',
           siteConfig: {
-            title: 'OmniBlog',
-            tagline: 'Search & Intelligence',
+            title: 'JRT Blog',
+            tagline: 'Think & Search',
             logoChar: 'O',
             logoUrl: '',
             heroTitleMain: 'Explore Knowledge',
@@ -867,8 +867,8 @@
 
           if (configRes.data) {
             this.state.siteConfig = {
-              title: configRes.data.title || 'OmniBlog',
-              tagline: configRes.data.tagline || 'Search & Intelligence',
+              title: configRes.data.title || 'JRT Blog',
+              tagline: configRes.data.tagline || 'Think & Search',
               logoChar: configRes.data.logo_char || 'O',
               logoUrl: configRes.data.logo_url || '',
               heroTitleMain: configRes.data.hero_title_main || 'Explore Knowledge',
